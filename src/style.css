@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0px 166px;
+}
+
+.header {
+  background-image: url(background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-line {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav {
+  padding-left: 100px;
+}
+
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+
+  margin-right: 25px;
+
+  transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+  color: chocolate;
+}
+
+.cart {
+  position: relative;
+  border-right: 1px solid #ffffff;
+  padding-right: 15px;
+  height: 50px;
+}
+
+.cart-img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 7px;
+}
+
+.phone {
+}
+
+.phone-holder {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  color: #ffffff;
+}
+
+.num {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+
+  transition: color 0.3s linear;
+}
+
+.num:hover {
+  color: chocolate;
+}
+
+.phone-text {
+  color: #ffffff;
+}
+
+.button {
+  background-color: rgb(252, 147, 19);
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+}
+
+.header-down {
+  position: relative;
+}
+
+.header-title {
+  position: absolute;
+  left: 0;
+  color: rgb(198, 127, 41);
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 222px;
+  text-align: center;
+}
+
+.header-suptitle {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.header-suptitle:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 46px;
+  background-color: #fff;
+  top: 148px;
+}
+
+.menu-button {
+  color: #fff;
+  text-decoration: none;
+  background-color: #bb812b;
+  padding: 14px 28px;
+  font-size: 14px;
+  /* font-weight: 700;  Это ничего не меняет, но вроде должен делать текст толще */
+  margin-bottom: 20px;
+
+  transition: background-color 0.3s linear;
+}
+
+.menu-button:hover {
+  background-color: aqua;
+}
